@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    font-weight: bold;
+    background-image: url(../img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+} 
+
+.form__lable {
+    background-image: url(../img/donar-pizza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    display: inline-block;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    font-size: 35px;
+    background-color: transparent;
+}
+
+.line {
+    margin-top: 10px;
+    width: 2px;
+    height: 600px;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.header {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 15, 25, 0.75);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pizza</title>
+</head>
+
+<body>
+    <header class="header"></header>
+    <h2 class="h1 text-center">Pitsa buyurtma qilish</h2>
+
+
+    <div class="wrapper mt-5">
+        <div class="container-md">
+            <div class="row">
+                <form action="" class="form" id="form">
+                    <div class="col d-flex gap-5">
+                        <div class="left-side col-8">
+
+                            <h2 class="h4">Noni qanday bolsin ?</h2>
+
+                            <select class="form-select" aria-label="Default select example" id="select">
+                                <option value="yupqa">Yupqa</option>
+                                <option value="qalin">Qalin</option>
+                            </select>
+
+                            <h2 class="h4 mt-5">Kattaligi</h2>
+
+                            <div class="d-flex align-content-center">
+                                <label for="check" class="form__lable">
+                                    <span id="lable-first text-dark">25 sm</span>
+                                </label>
+
+                                <label for="check" class="form__lable ">
+                                    <span id="lable-second text-dark">30 sm</span>
+                                </label>
+
+                                <label for="check" class="form__lable">
+                                    <span id="lable-third text-dark">35 sm</span>
+                                </label>
+                            </div>
+
+                            <h2 class="h4 mt-5">Ustiga nima solaylik ?</h2>
+
+                            <div class="d-flex gap-5">
+                                <div id="product_wrapper">
+                                </div>
+                            </div>
+
+                            <h2 class="h4 mt-5">Qoshimchalar</h2>
+                            <ul class=" d-flex gap-5 " id="attachments">
+
+                            </ul>
+                        </div>
+
+                        <span class="line"></span>
+
+                        <div class="right-side col-4">
+                            <div class="mb-3">
+                                <h2 class="h5 fw-bold">
+                                    Non: <span class="fw-light" id="dough"></span>
+                                </h2>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="h5 fw-bold">
+                                    Kattaligi: <span class="fw-light" id="pizza-size"></span>
+                                </h2>
+                            </div>
+                            <div class="mb-3 d-flex flex-column">
+                                <h2 class="h5 fw-bold m-0">Ustida:</h2>
+                                <ul id="result-list">
+
+                                </ul>
+                            </div>
+
+                            <div class="mb-3 d-flex flex-column">
+                                <h2 class="h5 fw-bold m-0">Qoshimcha:</h2>
+                                <ul id="attachments-result">
+
+                                </ul>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Buyurtma berish</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
